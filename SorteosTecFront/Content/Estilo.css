@@ -1,0 +1,122 @@
+﻿.menu {
+    background-color: #f2f2f2;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: right; 
+}
+
+    .menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu li {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu a {
+        display: block;
+        padding: 10px;
+        color: #333;
+        text-decoration: none;
+    }
+
+        .menu a:hover {
+            background-color: #ddd;
+            color: dodgerblue;
+        }
+
+        .menu a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+
+.blue-button {
+    background-color: dodgerblue    ;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width:inherit;
+}
+
+
+input[type="text"]::placeholder {
+    color: #999999;
+    
+}
+
+input[type="text"] {
+    border: 1px solid #999999;
+    outline: none;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+input[type="email"] {
+    border: 1px solid #999999;
+    outline: none;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.input-container {
+    position: absolute;
+    top: 80;
+    right: 100;
+}
+.input-containerizq {
+    position: absolute;
+    top: 80;
+    left: 300;
+    color: black;
+    letter-spacing: 1px;
+}
+.inputs-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+}
+
+    .inputs-top input {
+        margin-left: 5px;
+    }
+
+.input-container input {
+    display: block;
+    width: 200px;
+    height: 30px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+
+
+.selectOp {
+    display: block;
+    height: 20px;
+    width: 150px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+footer p {
+    color: #555;
+    font-size: 12px;
+    margin-top: 10px;
+    ali
+}

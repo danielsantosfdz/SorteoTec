@@ -1,0 +1,11 @@
+﻿@model List<Usuario>
+
+<h1>Lista de Usuarios</h1>
+
+<ul>
+    @foreach (var usuario in Model)
+    {
+        <li>@usuario.Nombre - @usuario.Correo</li>
+        
+    }
+</ul>
